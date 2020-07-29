@@ -1,0 +1,63 @@
+body{
+  font-family: 'DIN pro';
+
+  h1{
+    font-size: 52px;
+    color: $white;
+    line-height: 52px;
+  }
+
+  h2{
+     font-size: 48px;
+     text-transform: uppercase;
+     font-weight: 300;
+     color: $mainColor;
+  }
+
+  h3{
+    font-size: 40px;
+    font-weight: normal;
+    color: $mainColor;
+  }
+.welcome-subhead{
+    font-size: 18px;
+    color: $white;
+    text-transform: uppercase;
+
+    font-weight: 300;
+}
+  h4{
+    font-size: 30px;
+    color: $white;
+    text-transform: uppercase;
+
+    font-weight: 300;
+  }
+
+  h5{
+    font-size: 34px;
+    font-weight: 300;
+    color: $mainColor;
+    text-transform: uppercase;
+  }
+
+  h6{
+    font-size: 18px;
+    font-weight: normal;
+    text-transform: uppercase;
+  }
+
+  p{
+    font-family: 'arial';
+    font-size: 16px;
+    font-weight: 300;
+    
+  }
+
+  a{
+    font-size: 19px;
+    font-weight: 300;
+    color: $mainColor;
+  }
+ 
+}

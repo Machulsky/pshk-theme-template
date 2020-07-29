@@ -1,0 +1,271 @@
+@import url(../fonts/DINPro/stylesheet.css);
+body {
+  font-family: 'DIN pro'; }
+  body h1 {
+    font-size: 52px;
+    color: #fff;
+    line-height: 52px; }
+  body h2 {
+    font-size: 48px;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: #2e7f3e; }
+  body h3 {
+    font-size: 40px;
+    font-weight: normal;
+    color: #2e7f3e; }
+  body .welcome-subhead {
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 300; }
+  body h4 {
+    font-size: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 300; }
+  body h5 {
+    font-size: 34px;
+    font-weight: 300;
+    color: #2e7f3e;
+    text-transform: uppercase; }
+  body h6 {
+    font-size: 18px;
+    font-weight: normal;
+    text-transform: uppercase; }
+  body p {
+    font-family: 'arial';
+    font-size: 16px;
+    font-weight: 300; }
+  body a {
+    font-size: 19px;
+    font-weight: 300;
+    color: #2e7f3e; }
+
+.btn {
+  font-size: 14px;
+  background: #2e7f3e;
+  color: #fff;
+  text-transform: uppercase;
+  border: none; }
+  .btn:hover, .btn:visited, .btn:active, .btn:focus, .btn:not([href]) {
+    color: #fff;
+    border: none; }
+  .btn:hover {
+    box-shadow: 0px 2px 2px 2px rgba(46, 127, 62, 0.3); }
+
+.big {
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: 300; }
+
+.btn-outline {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: normal;
+  border-radius: 256px;
+  padding-left: 25px;
+  padding-right: 25px;
+  background: transparent;
+  border: 2px solid #b6bcc0 !important;
+  color: #b6bcc0 !important; }
+  .btn-outline:hover {
+    box-shadow: none;
+    border-color: #2e7f3e;
+    color: #2e7f3e; }
+
+.navbar {
+  background: #fff;
+  box-shadow: 1px 0px 1px rgba(0, 0, 0, 0.5); }
+  .navbar .navbar-toggler {
+    color: #2e7f3e; }
+  .navbar .dropdown-menu a {
+    font-size: 14px;
+    text-transform: uppercase; }
+
+.navbar-nav {
+  border-right: 1px solid #2e7f3e;
+  border-left: 1px solid #2e7f3e;
+  padding-right: 10px;
+  padding-left: 10px; }
+
+.navbar-brand {
+  font-size: 16px;
+  line-height: 16px;
+  text-transform: uppercase;
+  font-weight: normal; }
+
+.nav-item .nav-link {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: normal; }
+  .nav-item .nav-link:hover {
+    background: #2e7f3e;
+    color: #fff; }
+
+.nav-item .active {
+  background: #2e7f3e;
+  color: #fff; }
+
+.header-phones {
+  color: #2e7f3e;
+  padding-left: 10px; }
+  .header-phones img {
+    width: 50px;
+    display: inline-block; }
+  .header-phones ul {
+    display: table-cell;
+    align-items: center;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+    .header-phones ul li {
+      display: inline-block; }
+      .header-phones ul li span {
+        margin: 0;
+        padding: 0;
+        display: block;
+        font-size: 12px;
+        line-height: 12px; }
+      .header-phones ul li phone {
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        line-height: 14px;
+        font-size: 14px;
+        font-weight: normal; }
+
+.subnav {
+  background: #e7f9eb; }
+  .subnav .navbar-toggler {
+    color: #2e7f3e;
+    text-align: center;
+    align-items: center;
+    justify-content: center; }
+  .subnav .navbar-nav {
+    border: none; }
+    .subnav .navbar-nav .nav-item .nav-link {
+      font-size: 14px;
+      padding-bottom: 0;
+      padding-top: 0; }
+      .subnav .navbar-nav .nav-item .nav-link:hover {
+        color: #2e7f3e;
+        background: transparent;
+        text-decoration: underline; }
+
+#welcome {
+  background: #2e7f3e;
+  padding-top: 50px;
+  padding-bottom: 50px; }
+  #welcome .comission {
+    margin-top: 50px; }
+    #welcome .comission h3 {
+      padding: 20px;
+      padding-left: 0;
+      padding-right: 0;
+      background: #e7f9eb;
+      max-width: 75%;
+      text-align: center; }
+
+#skills {
+  padding-top: 30px;
+  padding-bottom: 30px; }
+  #skills h5 {
+    padding: 0;
+    margin: 0;
+    display: table-cell;
+    vertical-align: middle;
+    margin-bottom: 20px; }
+  #skills .card {
+    border: none; }
+  #skills .card-footer {
+    background: #e7f9eb;
+    border: none;
+    min-height: 120px; }
+  #skills .card-text {
+    color: #2e7f3e;
+    display: table-cell;
+    align-items: center;
+    vertical-align: middle; }
+  #skills .card-img {
+    text-align: center; }
+    #skills .card-img i {
+      font-size: 72px;
+      color: #2e7f3e; }
+
+.owl-carousel .owl-nav .owl-prev {
+  font-size: 90px !important;
+  position: absolute;
+  top: 0;
+  left: -50px; }
+  .owl-carousel .owl-nav .owl-prev:hover {
+    background: transparent;
+    color: #2e7f3e; }
+
+.owl-carousel .owl-nav .owl-next {
+  font-size: 90px !important;
+  position: absolute;
+  top: 0;
+  right: -50px; }
+  .owl-carousel .owl-nav .owl-next:hover {
+    background: transparent;
+    color: #2e7f3e; }
+
+#actionbar {
+  padding-top: 10px; }
+  #actionbar h6 {
+    margin-bottom: 15px; }
+  #actionbar .action {
+    background: #ebf6fd;
+    border: none; }
+  #actionbar .news {
+    background: #f9f9f9;
+    border: none; }
+  #actionbar .card {
+    margin-top: 10px;
+    padding: 0;
+    padding: 10px; }
+  #actionbar .card-body {
+    padding: 0; }
+    #actionbar .card-body img {
+      padding-right: 10px; }
+
+.cvadrat {
+  background: #2e7f3e;
+  height: 250px;
+  margin-right: 2px;
+  margin-top: 2px; }
+
+footer {
+  margin-top: 50px; }
+  footer .card {
+    padding: 20px;
+    margin-bottom: -100px;
+    box-shadow: 0px 20px 40px #3a3a3a;
+    border: none; }
+  footer h5 {
+    text-transform: none;
+    font-size: 30px; }
+  footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+    footer ul li {
+      margin-top: 5px; }
+  footer .footer-contacts li {
+    margin-top: 20px; }
+    footer .footer-contacts li:first-child {
+      margin-top: 0; }
+    footer .footer-contacts li a {
+      font-weight: normal; }
+    footer .footer-contacts li span {
+      display: block;
+      color: #2e7f3e; }
+  footer .footer-overlay {
+    background: #3a3a3a;
+    padding-top: 150px; }
+    footer .footer-overlay p {
+      font-family: 'DIN pro';
+      color: #fff;
+      font-weight: 300 !important; }

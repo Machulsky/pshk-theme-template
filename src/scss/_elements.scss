@@ -1,0 +1,40 @@
+.btn{
+  font-size: 14px;
+  background: $mainColor;
+  color: $white;
+  text-transform: uppercase;
+  border: none;
+  
+  &:hover, &:visited, &:active, &:focus, &:not([href]){
+    color: $white;
+    border: none;
+  }
+
+  &:hover{
+    box-shadow: 0px 2px 2px 2px rgba(46,127,62, .3);
+  }
+}
+
+.big{
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+.btn-outline{
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: normal;
+  border-radius: 256px;
+  padding-left: 25px;
+  padding-right: 25px;
+  background: transparent;
+  border: 2px solid #b6bcc0 !important;
+  color: #b6bcc0 !important;
+  &:hover{
+    box-shadow: none;
+    border-color: $mainColor;
+    color: $mainColor;
+  }
+}
+
